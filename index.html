@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Scallabis News</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="header__inner">
+        <img class="header__logo" src="images/logo.png" alt="city logo">
+        <h1 class="header__title">
+          Scallabis News
+        </h1>
+        <a id="menu" class="header__menu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+          </svg>
+        </a>
+      </div>
+    </header>
+
+    <nav id="drawer" class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#">Notícias</a></li>
+        <li class="nav__item"><a href="#">Eventos</a></li>
+        <li class="nav__item"><a href="#">Cultura</a></li>
+        <li class="nav__item"><a href="#">Blog</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="content">
+        <section class="hero">
+          <article class="description">
+            <h2>WEEKLY SPOTLIGHT</h2>
+            <p>Celebramos os 330 anos da inauguração da Sé de Santarém. Câmara de Santarém convida os habitantes a celebrar junto da Sé com muita festa.</p>
+          </article>
+        </section>
+
+        <section class="news top-news">
+          <h2 class="news__title">Top news <a href="#" class="news__more">+ mais</a></h2>
+          <ul>
+            <li class="top-news__item">
+              <a href="#">Estrada que liga Serra de Santo António a Minde arranjada em 2018.</a>
+            </li>
+            <li class="top-news__item">
+              <a href="#">Procissão de São José celebrou padroeiro de Santarém.</a>
+            </li>
+            <li class="top-news__item">
+              <a href="#">Sanitários da Barragem de Salvaterra de Magos vandalizados.</a>
+            </li>
+            <li class="top-news__item">
+              <a href="#">Jovem campeão de motocross quer um futuro sobre rodas.</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="scores">
+          <table class="scores__table">
+            <thead>
+              <tr>
+                <th class="scores__date">Data</th>
+                <th class="scores__location">Cidade</th>
+                <th>Equipa</th>
+                <th colspan="2">Resultado</th>
+                <th>Equipa</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="scores__date">Saturday</td>
+                <td class="scores__location">Santa Maria da Feira</td>
+                <td>CD Feirense</td>
+                <td>0</td>
+                <td class="winner">2</td>
+                <td class="winner">SL Benfica</td>
+              </tr>
+              <tr>
+                <td class="scores__date">Saturday</td>
+                <td class="scores__location">Porto</td>
+                <td class="winner">FC Porto</td>
+                <td class="winner">2</td>
+                <td>0</td>
+                <td>Boavista FC</td>
+              </tr>
+              <tr>
+                <td class="scores__date">Sunday</td>
+                <td class="scores__location">Lisboa</td>
+                <td class="winner">Sporting CP</td>
+                <td class="winner">3</td>
+                <td>0</td>
+                <td>Rio Ave FC</td>
+              </tr>
+              <tr>
+                <td class="scores__date">Sunday</td>
+                <td class="scores__location">Chaves</td>
+                <td>GD Chaves</td>
+                <td>1</td>
+                <td class="winner">4</td>
+                <td class="winner">SC Braga</td>
+              </tr>
+              <tr>
+                <td class="scores__date">Sunday</td>
+                <td class="scores__location">Guimarães</td>
+                <td class="winner">Vitória SC</td>
+                <td class="winner">2</td>
+                <td>1</td>
+                <td>CD Aves</td>
+              </tr>
+
+            </tbody>
+          </table>
+        </section>
+
+        <section class="weather">
+          <span class="weather__location">Santarém, PT</span>
+          <span class="weather__desc">Com nuvens</span>
+          <span class="weather__today">
+          <img class="weather__today__image" src="images/weather.png" alt="icon of a partially cloudy day"><span class="weather__today__temp">15</span><span class="weather__today__deg">&deg;C</span>
+          </span>
+          <ul class="weather__next">
+            <li class="weather__next__item">
+              <span>Seg</span>
+              <img class="weather__next__image" src="images/sunny-s-cloudy.png" alt="icon of a partly cloudy day">
+              <span>15 &deg;C</span>
+            </li><li class="weather__next__item">
+              <span>Ter</span>
+              <img class="weather__next__image" src="images/partly-cloudy.png" alt="icon of a partly cloudy day">
+              <span>14 &deg;C</span>
+            </li><li class="weather__next__item">
+              <span>Qua</span>
+              <img class="weather__next__image" src="images/sunny.png" alt="icon of a sunny day">
+              <span>16 &deg;C</span>
+            </li><li class="weather__next__item">
+              <span>Qui</span>
+              <img class="weather__next__image" src="images/partly-cloudy.png" alt="icon of a partly cloudy day">
+              <span>15 &deg;C</span>
+            </li><li class="weather__next__item">
+              <span>Sex</span>
+              <img class="weather__next__image" src="images/rain.png" alt="icon of a rainy day">
+              <span>14 &deg;C</span>
+            </li>
+          </ul>
+        </section>
+
+        <section class="news recent-news">
+          <h2 class="news__title">Últimas Notícias <a href="#" class="news__more">+ mais</a></h2>
+          <ul>
+            <li class="snippet">
+              <img class="snippet__thumbnail" src="images/road.jpg" alt="picture of a girl with a large, stuffed dog toy">
+              <h3 class="snippet__title"><a href="#">Estrada que liga Serra de Santo António a Minde arranjada em 2018</a></h3>
+              <p>População não se conforma com o encerramento e removeu as barreiras que fechavam a estrada, estando a via aberta ao trânsito, ao arrepio da decisão do executivo. A presidente da câmara de Alcanena, Fernanda Asseiceira garantiu esta segunda-feira que a estrada vai ser arranjada este ano.
+              </p>
+            </li>
+            <li class="snippet">
+              <img class="snippet__thumbnail" src="images/procissao.jpg" alt="picture of a girl with a large, stuffed dog toy">
+              <h3 class="snippet__title"><a href="#">Procissão de São José celebrou padroeiro de Santarém</a></h3>
+              <p>A Procissão e Missa Solene em Honra de S. José são já consideradas um dos pontos altos das Festas de S. José e levaram na tarde de segunda-feira, 19 de Março, muita gente ao Centro histórico de Santarém.
+              </p>
+            </li>
+            <li class="snippet">
+              <img class="snippet__thumbnail" src="images/vandal.jpg" alt="picture of a girl with a large, stuffed dog toy">
+              <h3 class="snippet__title"><a href="#">Sanitários da Barragem de Salvaterra de Magos vandalizados</a></h3>
+              <p>Desta vez, roubaram autoclismos, bichas, torneiras e focos de iluminação e também destruíram toda a vedação do parque de merendas. O presidente da União de Freguesias de Salvaterra de Magos e Foros de Salvaterra, Manuel Bolieiro (PS) já apresentou queixa às autoridades.
+              </p>
+            </li>
+            <li class="snippet">
+              <img class="snippet__thumbnail" src="images/moto.jpg" alt="picture of a girl with a large, stuffed dog toy">
+              <h3 class="snippet__title"><a href="#">Jovem campeão de motocross quer um futuro sobre rodas</a></h3>
+              <p>Luís Outeiro começou a familiarizar-se com as motas aos três anos de idade e a paixão foi acelerando com a idade. O campeão nacional da modalidade na categoria MX é natural de Alqueidão, concelho de Torres Novas, e já sabe como vai delinear o seu futuro.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <footer>
+        <ul>
+          <li><a href="#">Contacte-nos</a></li>
+          <li><a href="#">Siga-nos no Twitter</a></li>
+          <li><a href="#">RSS</a></li>
+        </ul>
+      </footer>
+    </main>
+    <script>
+      /*
+       * Open the drawer when the menu ison is clicked.
+       */
+      var menu = document.querySelector('#menu');
+      var main = document.querySelector('main');
+      var drawer = document.querySelector('.nav');
+
+      menu.addEventListener('click', function(e) {
+        drawer.classList.toggle('open');
+        e.stopPropagation();
+      });
+      main.addEventListener('click', function() {
+        drawer.classList.remove('open');
+      });
+
+    </script>
+  </body>
+</html>
