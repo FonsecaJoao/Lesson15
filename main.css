@@ -216,7 +216,7 @@ main {
 .scores {
   padding-top: 1em;
   flex-grow: 1;
-  overflow: auto;
+  overflow: auto!important;
 }
 
 .scores__table {
