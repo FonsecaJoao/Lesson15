@@ -216,10 +216,11 @@ main {
 .scores {
   padding-top: 1em;
   flex-grow: 1;
+  overflow: auto;
 }
 
 .scores__table {
-  width: 90%;
+  width: 100%;
   border-collapse: collapse;
 }
 
